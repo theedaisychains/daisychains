@@ -1,0 +1,13 @@
+{
+  "name": "Daisy Chains",
+  "short_name": "Daisy Chains",
+  "description": "Thee Daisy Chains Picture Show",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#150a2e",
+  "theme_color": "#150a2e",
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
