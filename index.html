@@ -1,19 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
   <link href="index.css" rel="stylesheet" />
 
   <title>Daisy Chains</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Daisy Chains will Kill you">
   <link rel="author" href="Daisy Chains" />
   <link rel="canonical" href="https://daisychains.me" />
 </head>
 <body>
 
-  <h1>Daisy Chains</h1>
-  
-  <p>She'll be back in a bit tho</p>
-  
+  <main>
+    <header>
+      <h1><img class="logo" src="./assets/logo.gif" alt="Daisy Chains"></h1>
+<!--      <p class="tagline">THEE DAISY CHAINS PICTURE SHOW</p>-->
+    </header>
+
+    <!--
+      PLACEHOLDER ART & HANDLES.
+      - every href below guesses "theedaisychains" on each platform. Check
+        each one resolves (or grab the handle if it's free) before shipping.
+    -->
+
+    <div class="constellation">
+      <img class="hero" src="./assets/hero.gif" alt="" aria-hidden="true">
+
+      <nav class="orbit-ring" aria-label="Links">
+        <a class="orb" style="--x:0.00%;--y:-46.00%" href="https://twitch.tv/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-twitch.gif" alt="">
+          <span class="label">Twitch</span>
+        </a>
+        <a class="orb" style="--x:24.87%;--y:-38.70%" href="https://youtube.com/@theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-youtube.gif" alt="">
+          <span class="label">YouTube</span>
+        </a>
+        <a class="orb" style="--x:41.84%;--y:-19.11%" href="https://kick.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-kick.gif" alt="">
+          <span class="label">Kick</span>
+        </a>
+        <a class="orb" style="--x:45.53%;--y:6.55%" href="https://patreon.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-patreon.gif" alt="">
+          <span class="label">Patreon</span>
+        </a>
+        <a class="orb" style="--x:34.76%;--y:30.12%" href="https://ko-fi.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-kofi.gif" alt="">
+          <span class="label">Ko-fi</span>
+        </a>
+        <a class="orb" style="--x:12.96%;--y:44.14%" href="https://letterboxd.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-letterboxd.gif" alt="">
+          <span class="label">Letterboxd</span>
+        </a>
+        <a class="orb" style="--x:-12.96%;--y:44.14%" href="https://reddit.com/u/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-reddit.gif" alt="">
+          <span class="label">Reddit</span>
+        </a>
+        <a class="orb" style="--x:-34.76%;--y:30.12%" href="https://tiktok.com/@theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-tiktok.gif" alt="">
+          <span class="label">TikTok</span>
+        </a>
+        <a class="orb" style="--x:-45.53%;--y:6.55%" href="https://x.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-twitter.gif" alt="">
+          <span class="label">Twitter</span>
+        </a>
+        <a class="orb" style="--x:-41.84%;--y:-19.11%" href="https://instagram.com/theedaisychains" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-instagram.gif" alt="">
+          <span class="label">Instagram</span>
+        </a>
+        <a class="orb" style="--x:-24.87%;--y:-38.70%" href="https://bsky.app/profile/theedaisychains.bsky.social" target="_blank" rel="noopener">
+          <img class="disc" src="./assets/btn-bluesky.gif" alt="">
+          <span class="label">Bluesky</span>
+        </a>
+      </nav>
+    </div>
+  </main>
+
+  <div class="rose rose-left" aria-hidden="true"></div>
+  <div class="rose rose-right" aria-hidden="true"></div>
+
+  <div class="scatter" aria-hidden="true">
+    <!-- top-left: --x = distance from left, --y = distance from top -->
+    <img class="scatter-item top-left shrink-small" style="--x:1%; --y:1%"   src="./assets/bg-dagger.gif" alt="">
+    <img class="scatter-item top-left shrink-small" style="--x:10%; --y:3%"  src="./assets/bg-blue-cross.gif" alt="">
+    <img class="scatter-item top-left shrink-small" style="--x:3%; --y:9%"   src="./assets/bg-angel.gif" alt="">
+    <img class="scatter-item top-left shrink-small" style="--x:13%; --y:2%" src="./assets/bg-butterfly.gif" alt="">
+    <img class="scatter-item top-left hide-small" style="--x:7%; --y:26%"  src="./assets/bg-flowers-3.gif" alt="">
+    <img class="scatter-item top-left hide-small" style="--x:-1%; --y:23%" src="./assets/bg-wolf.gif" alt="">
+
+    <!-- top-right: --x = distance from right, --y = distance from top -->
+    <img class="scatter-item top-right shrink-small" style="--x:1%; --y:1%"   src="./assets/bg-torch.gif" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:10%; --y:3%"  src="./assets/bg-teeth.png" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:3%; --y:9%"   src="./assets/bg-dolphin.png" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:10%; --y:12%" src="./assets/bg-fairy.gif" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:0%; --y:13%"  src="./assets/bg-flamingo.gif" alt="">
+    <img class="scatter-item top-right hide-small" style="--x:15%; --y:21%" src="./assets/bg-lips.gif" alt="">
+    <img class="scatter-item top-right hide-small" style="--x:7%; --y:26%"  src="./assets/bg-parrot.png" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:17%; --y:3%"  src="./assets/bg-orb.gif" alt="">
+    <img class="scatter-item top-right shrink-small" style="--x:7%; --y:1%"   src="./assets/bg-yes.png" alt="">
+
+    <!-- bottom-left: --x = distance from left, --y = distance from bottom -->
+    <img class="scatter-item bottom-left shrink-small" style="--x:1%; --y:1%"   src="./assets/bg-rose-glass.gif" alt="">
+    <img class="scatter-item bottom-left shrink-small" style="--x:10%; --y:3%"  src="./assets/bg-pegasus.gif" alt="">
+    <img class="scatter-item bottom-left shrink-small" style="--x:20%; --y:2%"  src="./assets/bg-peacock.gif" alt="">
+    <img class="scatter-item bottom-left hide-small" style="--x:13%; --y:12%" src="./assets/bg-pondering.gif" alt="">
+    <img class="scatter-item bottom-left hide-small" style="--x:0%; --y:17%" src="./assets/bg-purple-rose.png" alt="">
+    <img class="scatter-item bottom-left shrink-small" style="--x:5%; --y:17%"  src="./assets/bg-crab.gif" alt="">
+
+    <!-- bottom-right: --x = distance from right, --y = distance from bottom -->
+    <img class="scatter-item bottom-right shrink-small" style="--x:15%; --y:3%"  src="./assets/bg-dream.png" alt="">
+    <img class="scatter-item bottom-right shrink-small" style="--x:-1%; --y:-1%" src="./assets/bg-flowers.gif" alt="">
+    <img class="scatter-item bottom-right hide-small" style="--x:1%; --y:28%"  src="./assets/bg-spider.png" alt="">
+    <img class="scatter-item bottom-right hide-small" style="--x:10%; --y:3%"  src="./assets/bg-furby.png" alt="">
+    <img class="scatter-item bottom-right shrink-small" style="--x:5%; --y:17%"  src="./assets/bg-flowers-2.gif" alt="">
+    <img class="scatter-item bottom-right shrink-small" style="--x:15%; --y:21%" src="./assets/bg-broken-image.png" alt="">
+    <img class="scatter-item bottom-right hide-small" style="--x:7%; --y:26%"  src="./assets/bg-dragon.gif" alt="">
+  </div>
+
 </body>
 </html>
